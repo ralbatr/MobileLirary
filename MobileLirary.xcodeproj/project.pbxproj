@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB2F03218D97E8500381ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03118D97E8500381ABF /* Foundation.framework */; };
+		DFB2F03418D97E8500381ABF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03318D97E8500381ABF /* CoreGraphics.framework */; };
+		DFB2F03618D97E8500381ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03518D97E8500381ABF /* UIKit.framework */; };
+		DFB2F03C18D97E8500381ABF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F03A18D97E8500381ABF /* InfoPlist.strings */; };
+		DFB2F03E18D97E8500381ABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F03D18D97E8500381ABF /* main.m */; };
+		DFB2F04218D97E8500381ABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F04118D97E8500381ABF /* AppDelegate.m */; };
+		DFB2F04418D97E8500381ABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F04318D97E8500381ABF /* Images.xcassets */; };
+		DFB2F04B18D97E8600381ABF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F04A18D97E8500381ABF /* XCTest.framework */; };
+		DFB2F04C18D97E8600381ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03118D97E8500381ABF /* Foundation.framework */; };
+		DFB2F04D18D97E8600381ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03518D97E8500381ABF /* UIKit.framework */; };
+		DFB2F05518D97E8600381ABF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F05318D97E8600381ABF /* InfoPlist.strings */; };
+		DFB2F05718D97E8600381ABF /* MobileLiraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F05618D97E8600381ABF /* MobileLiraryTests.m */; };
+		DFB2F06218D97EF800381ABF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F06118D97EF800381ABF /* MainViewController.m */; };
+		DFB2F06A18D97F2F00381ABF /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F06518D97F2F00381ABF /* BaseNavigationViewController.m */; };
+		DFB2F06B18D97F2F00381ABF /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F06718D97F2F00381ABF /* BaseTableView.m */; };
+		DFB2F06C18D97F2F00381ABF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F06918D97F2F00381ABF /* BaseViewController.m */; };
+		DFB2F07318D97F3C00381ABF /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F06E18D97F3C00381ABF /* MyButton.m */; };
+		DFB2F07418D97F3C00381ABF /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F07018D97F3C00381ABF /* MyImageView.m */; };
+		DFB2F07518D97F3C00381ABF /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F07218D97F3C00381ABF /* MyLabel.m */; };
+		DFB2F07918D9805A00381ABF /* QuickConsultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F07818D9805A00381ABF /* QuickConsultViewController.m */; };
+		DFB2F07D18D980E500381ABF /* QuickBorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F07C18D980E500381ABF /* QuickBorrowViewController.m */; };
+		DFB2F08118D9812700381ABF /* RenewBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F08018D9812700381ABF /* RenewBookViewController.m */; };
+		DFB2F08518D9817400381ABF /* AnnounceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F08418D9817400381ABF /* AnnounceViewController.m */; };
+		DFB2F08918D981BC00381ABF /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F08818D981BC00381ABF /* AttentionViewController.m */; };
+		DFB2F08D18D982B500381ABF /* MyCollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F08C18D982B500381ABF /* MyCollectViewController.m */; };
+		DFB2F09118D9831400381ABF /* NewBookAnnouceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F09018D9831400381ABF /* NewBookAnnouceViewController.m */; };
+		DFB2F09518D9838700381ABF /* MyDiscussViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F09418D9838700381ABF /* MyDiscussViewController.m */; };
+		DFB2F09918D983DF00381ABF /* SystemSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F09818D983DF00381ABF /* SystemSetViewController.m */; };
+		DFB2F09D18D983FD00381ABF /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F09C18D983FD00381ABF /* AboutUsViewController.m */; };
+		DFB2F0A718D98C1100381ABF /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F09F18D98C1100381ABF /* blackArrow.png */; };
+		DFB2F0A818D98C1100381ABF /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0A018D98C1100381ABF /* blackArrow@2x.png */; };
+		DFB2F0A918D98C1100381ABF /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0A118D98C1100381ABF /* blueArrow.png */; };
+		DFB2F0AA18D98C1100381ABF /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0A218D98C1100381ABF /* blueArrow@2x.png */; };
+		DFB2F0AB18D98C1100381ABF /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2F0A418D98C1100381ABF /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DFB2F0AC18D98C1100381ABF /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0A518D98C1100381ABF /* grayArrow.png */; };
+		DFB2F0AD18D98C1100381ABF /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0A618D98C1100381ABF /* grayArrow@2x.png */; };
+		DFB2F0BA18D98EB300381ABF /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0AF18D98EB300381ABF /* search.png */; };
+		DFB2F0BB18D98EB300381ABF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B018D98EB300381ABF /* background.png */; };
+		DFB2F0BC18D98EB300381ABF /* aboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B118D98EB300381ABF /* aboutUs.png */; };
+		DFB2F0BD18D98EB300381ABF /* borrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B218D98EB300381ABF /* borrow.png */; };
+		DFB2F0BE18D98EB300381ABF /* notice.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B318D98EB300381ABF /* notice.png */; };
+		DFB2F0BF18D98EB300381ABF /* attention.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B418D98EB300381ABF /* attention.png */; };
+		DFB2F0C018D98EB300381ABF /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B518D98EB300381ABF /* comment.png */; };
+		DFB2F0C118D98EB300381ABF /* collect.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B618D98EB300381ABF /* collect.png */; };
+		DFB2F0C218D98EB300381ABF /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B718D98EB300381ABF /* set.png */; };
+		DFB2F0C318D98EB300381ABF /* newBooks.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B818D98EB300381ABF /* newBooks.png */; };
+		DFB2F0C418D98EB300381ABF /* renew.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B918D98EB300381ABF /* renew.png */; };
+		DFB2F0C818D990DD00381ABF /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0C718D990DD00381ABF /* background1.png */; };
+		DFB3D48118DA834600F05F88 /* ComboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3D48018DA834600F05F88 /* ComboxView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB2F04E18D97E8600381ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB2F02618D97E8500381ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB2F02D18D97E8500381ABF;
+			remoteInfo = MobileLirary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB2F02E18D97E8500381ABF /* MobileLirary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLirary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2F03118D97E8500381ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFB2F03318D97E8500381ABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFB2F03518D97E8500381ABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFB2F03918D97E8500381ABF /* MobileLirary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileLirary-Info.plist"; sourceTree = "<group>"; };
+		DFB2F03B18D97E8500381ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFB2F03D18D97E8500381ABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB2F03F18D97E8500381ABF /* MobileLirary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileLirary-Prefix.pch"; sourceTree = "<group>"; };
+		DFB2F04018D97E8500381ABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB2F04118D97E8500381ABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB2F04318D97E8500381ABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFB2F04918D97E8500381ABF /* MobileLiraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLiraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2F04A18D97E8500381ABF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DFB2F05218D97E8600381ABF /* MobileLiraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileLiraryTests-Info.plist"; sourceTree = "<group>"; };
+		DFB2F05418D97E8600381ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFB2F05618D97E8600381ABF /* MobileLiraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileLiraryTests.m; sourceTree = "<group>"; };
+		DFB2F06018D97EF800381ABF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DFB2F06118D97EF800381ABF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DFB2F06418D97F2F00381ABF /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		DFB2F06518D97F2F00381ABF /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		DFB2F06618D97F2F00381ABF /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		DFB2F06718D97F2F00381ABF /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		DFB2F06818D97F2F00381ABF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DFB2F06918D97F2F00381ABF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DFB2F06D18D97F3C00381ABF /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		DFB2F06E18D97F3C00381ABF /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		DFB2F06F18D97F3C00381ABF /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		DFB2F07018D97F3C00381ABF /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		DFB2F07118D97F3C00381ABF /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		DFB2F07218D97F3C00381ABF /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		DFB2F07718D9805A00381ABF /* QuickConsultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickConsultViewController.h; sourceTree = "<group>"; };
+		DFB2F07818D9805A00381ABF /* QuickConsultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickConsultViewController.m; sourceTree = "<group>"; };
+		DFB2F07B18D980E500381ABF /* QuickBorrowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickBorrowViewController.h; sourceTree = "<group>"; };
+		DFB2F07C18D980E500381ABF /* QuickBorrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickBorrowViewController.m; sourceTree = "<group>"; };
+		DFB2F07F18D9812700381ABF /* RenewBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenewBookViewController.h; sourceTree = "<group>"; };
+		DFB2F08018D9812700381ABF /* RenewBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenewBookViewController.m; sourceTree = "<group>"; };
+		DFB2F08318D9817400381ABF /* AnnounceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnounceViewController.h; sourceTree = "<group>"; };
+		DFB2F08418D9817400381ABF /* AnnounceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnounceViewController.m; sourceTree = "<group>"; };
+		DFB2F08718D981BC00381ABF /* AttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionViewController.h; sourceTree = "<group>"; };
+		DFB2F08818D981BC00381ABF /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionViewController.m; sourceTree = "<group>"; };
+		DFB2F08B18D982B500381ABF /* MyCollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectViewController.h; sourceTree = "<group>"; };
+		DFB2F08C18D982B500381ABF /* MyCollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectViewController.m; sourceTree = "<group>"; };
+		DFB2F08F18D9831400381ABF /* NewBookAnnouceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBookAnnouceViewController.h; sourceTree = "<group>"; };
+		DFB2F09018D9831400381ABF /* NewBookAnnouceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBookAnnouceViewController.m; sourceTree = "<group>"; };
+		DFB2F09318D9838700381ABF /* MyDiscussViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiscussViewController.h; sourceTree = "<group>"; };
+		DFB2F09418D9838700381ABF /* MyDiscussViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiscussViewController.m; sourceTree = "<group>"; };
+		DFB2F09718D983DF00381ABF /* SystemSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSetViewController.h; sourceTree = "<group>"; };
+		DFB2F09818D983DF00381ABF /* SystemSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSetViewController.m; sourceTree = "<group>"; };
+		DFB2F09B18D983FD00381ABF /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		DFB2F09C18D983FD00381ABF /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		DFB2F09F18D98C1100381ABF /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		DFB2F0A018D98C1100381ABF /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		DFB2F0A118D98C1100381ABF /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		DFB2F0A218D98C1100381ABF /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		DFB2F0A318D98C1100381ABF /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		DFB2F0A418D98C1100381ABF /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		DFB2F0A518D98C1100381ABF /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		DFB2F0A618D98C1100381ABF /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		DFB2F0AF18D98EB300381ABF /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		DFB2F0B018D98EB300381ABF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		DFB2F0B118D98EB300381ABF /* aboutUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutUs.png; sourceTree = "<group>"; };
+		DFB2F0B218D98EB300381ABF /* borrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = borrow.png; sourceTree = "<group>"; };
+		DFB2F0B318D98EB300381ABF /* notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notice.png; sourceTree = "<group>"; };
+		DFB2F0B418D98EB300381ABF /* attention.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attention.png; sourceTree = "<group>"; };
+		DFB2F0B518D98EB300381ABF /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		DFB2F0B618D98EB300381ABF /* collect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collect.png; sourceTree = "<group>"; };
+		DFB2F0B718D98EB300381ABF /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		DFB2F0B818D98EB300381ABF /* newBooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newBooks.png; sourceTree = "<group>"; };
+		DFB2F0B918D98EB300381ABF /* renew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renew.png; sourceTree = "<group>"; };
+		DFB2F0C718D990DD00381ABF /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		DFB3D47F18DA834600F05F88 /* ComboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboxView.h; sourceTree = "<group>"; };
+		DFB3D48018DA834600F05F88 /* ComboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboxView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB2F02B18D97E8500381ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2F03418D97E8500381ABF /* CoreGraphics.framework in Frameworks */,
+				DFB2F03618D97E8500381ABF /* UIKit.framework in Frameworks */,
+				DFB2F03218D97E8500381ABF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2F04618D97E8500381ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2F04B18D97E8600381ABF /* XCTest.framework in Frameworks */,
+				DFB2F04D18D97E8600381ABF /* UIKit.framework in Frameworks */,
+				DFB2F04C18D97E8600381ABF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB2F02518D97E8500381ABF = {
+			isa = PBXGroup;
+			children = (
+				DFB2F03718D97E8500381ABF /* MobileLirary */,
+				DFB2F05018D97E8600381ABF /* MobileLiraryTests */,
+				DFB2F03018D97E8500381ABF /* Frameworks */,
+				DFB2F02F18D97E8500381ABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB2F02F18D97E8500381ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F02E18D97E8500381ABF /* MobileLirary.app */,
+				DFB2F04918D97E8500381ABF /* MobileLiraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB2F03018D97E8500381ABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F03118D97E8500381ABF /* Foundation.framework */,
+				DFB2F03318D97E8500381ABF /* CoreGraphics.framework */,
+				DFB2F03518D97E8500381ABF /* UIKit.framework */,
+				DFB2F04A18D97E8500381ABF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB2F03718D97E8500381ABF /* MobileLirary */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F04018D97E8500381ABF /* AppDelegate.h */,
+				DFB2F04118D97E8500381ABF /* AppDelegate.m */,
+				DFB2F06018D97EF800381ABF /* MainViewController.h */,
+				DFB2F06118D97EF800381ABF /* MainViewController.m */,
+				DFB2F07A18D980BB00381ABF /* QuickBorrow */,
+				DFB2F07618D97FB800381ABF /* QuickConsult */,
+				DFB2F07E18D9810A00381ABF /* RenewBook */,
+				DFB2F08218D9815E00381ABF /* Announcement */,
+				DFB2F08618D981AB00381ABF /* MyAttention */,
+				DFB2F08A18D9829A00381ABF /* MyCollect */,
+				DFB2F08E18D982F100381ABF /* NewBookAnnounce */,
+				DFB2F09218D9835100381ABF /* MyDiscuss */,
+				DFB2F09618D983C300381ABF /* SystemSet */,
+				DFB2F09A18D983E900381ABF /* AboutUs */,
+				DFB2F06318D97F2200381ABF /* BaseView */,
+				DFB2F04318D97E8500381ABF /* Images.xcassets */,
+				DFB2F03818D97E8500381ABF /* Supporting Files */,
+			);
+			path = MobileLirary;
+			sourceTree = "<group>";
+		};
+		DFB2F03818D97E8500381ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F0AE18D98EA200381ABF /* Image */,
+				DFB2F09E18D98C1100381ABF /* EGOTableViewPullRefresh */,
+				DFB2F03918D97E8500381ABF /* MobileLirary-Info.plist */,
+				DFB2F03A18D97E8500381ABF /* InfoPlist.strings */,
+				DFB2F03D18D97E8500381ABF /* main.m */,
+				DFB2F03F18D97E8500381ABF /* MobileLirary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB2F05018D97E8600381ABF /* MobileLiraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F05618D97E8600381ABF /* MobileLiraryTests.m */,
+				DFB2F05118D97E8600381ABF /* Supporting Files */,
+			);
+			path = MobileLiraryTests;
+			sourceTree = "<group>";
+		};
+		DFB2F05118D97E8600381ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F05218D97E8600381ABF /* MobileLiraryTests-Info.plist */,
+				DFB2F05318D97E8600381ABF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB2F06318D97F2200381ABF /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F06418D97F2F00381ABF /* BaseNavigationViewController.h */,
+				DFB2F06518D97F2F00381ABF /* BaseNavigationViewController.m */,
+				DFB2F06618D97F2F00381ABF /* BaseTableView.h */,
+				DFB2F06718D97F2F00381ABF /* BaseTableView.m */,
+				DFB2F06818D97F2F00381ABF /* BaseViewController.h */,
+				DFB2F06918D97F2F00381ABF /* BaseViewController.m */,
+				DFB2F06D18D97F3C00381ABF /* MyButton.h */,
+				DFB2F06E18D97F3C00381ABF /* MyButton.m */,
+				DFB2F06F18D97F3C00381ABF /* MyImageView.h */,
+				DFB2F07018D97F3C00381ABF /* MyImageView.m */,
+				DFB2F07118D97F3C00381ABF /* MyLabel.h */,
+				DFB2F07218D97F3C00381ABF /* MyLabel.m */,
+				DFB3D47F18DA834600F05F88 /* ComboxView.h */,
+				DFB3D48018DA834600F05F88 /* ComboxView.m */,
+			);
+			name = BaseView;
+			sourceTree = "<group>";
+		};
+		DFB2F07618D97FB800381ABF /* QuickConsult */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F07718D9805A00381ABF /* QuickConsultViewController.h */,
+				DFB2F07818D9805A00381ABF /* QuickConsultViewController.m */,
+			);
+			name = QuickConsult;
+			sourceTree = "<group>";
+		};
+		DFB2F07A18D980BB00381ABF /* QuickBorrow */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F07B18D980E500381ABF /* QuickBorrowViewController.h */,
+				DFB2F07C18D980E500381ABF /* QuickBorrowViewController.m */,
+			);
+			name = QuickBorrow;
+			sourceTree = "<group>";
+		};
+		DFB2F07E18D9810A00381ABF /* RenewBook */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F07F18D9812700381ABF /* RenewBookViewController.h */,
+				DFB2F08018D9812700381ABF /* RenewBookViewController.m */,
+			);
+			name = RenewBook;
+			sourceTree = "<group>";
+		};
+		DFB2F08218D9815E00381ABF /* Announcement */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F08318D9817400381ABF /* AnnounceViewController.h */,
+				DFB2F08418D9817400381ABF /* AnnounceViewController.m */,
+			);
+			name = Announcement;
+			sourceTree = "<group>";
+		};
+		DFB2F08618D981AB00381ABF /* MyAttention */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F08718D981BC00381ABF /* AttentionViewController.h */,
+				DFB2F08818D981BC00381ABF /* AttentionViewController.m */,
+			);
+			name = MyAttention;
+			sourceTree = "<group>";
+		};
+		DFB2F08A18D9829A00381ABF /* MyCollect */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F08B18D982B500381ABF /* MyCollectViewController.h */,
+				DFB2F08C18D982B500381ABF /* MyCollectViewController.m */,
+			);
+			name = MyCollect;
+			sourceTree = "<group>";
+		};
+		DFB2F08E18D982F100381ABF /* NewBookAnnounce */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F08F18D9831400381ABF /* NewBookAnnouceViewController.h */,
+				DFB2F09018D9831400381ABF /* NewBookAnnouceViewController.m */,
+			);
+			name = NewBookAnnounce;
+			sourceTree = "<group>";
+		};
+		DFB2F09218D9835100381ABF /* MyDiscuss */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F09318D9838700381ABF /* MyDiscussViewController.h */,
+				DFB2F09418D9838700381ABF /* MyDiscussViewController.m */,
+			);
+			name = MyDiscuss;
+			sourceTree = "<group>";
+		};
+		DFB2F09618D983C300381ABF /* SystemSet */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F09718D983DF00381ABF /* SystemSetViewController.h */,
+				DFB2F09818D983DF00381ABF /* SystemSetViewController.m */,
+			);
+			name = SystemSet;
+			sourceTree = "<group>";
+		};
+		DFB2F09A18D983E900381ABF /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F09B18D983FD00381ABF /* AboutUsViewController.h */,
+				DFB2F09C18D983FD00381ABF /* AboutUsViewController.m */,
+			);
+			name = AboutUs;
+			sourceTree = "<group>";
+		};
+		DFB2F09E18D98C1100381ABF /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F09F18D98C1100381ABF /* blackArrow.png */,
+				DFB2F0A018D98C1100381ABF /* blackArrow@2x.png */,
+				DFB2F0A118D98C1100381ABF /* blueArrow.png */,
+				DFB2F0A218D98C1100381ABF /* blueArrow@2x.png */,
+				DFB2F0A318D98C1100381ABF /* EGORefreshTableHeaderView.h */,
+				DFB2F0A418D98C1100381ABF /* EGORefreshTableHeaderView.m */,
+				DFB2F0A518D98C1100381ABF /* grayArrow.png */,
+				DFB2F0A618D98C1100381ABF /* grayArrow@2x.png */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		DFB2F0AE18D98EA200381ABF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2F0AF18D98EB300381ABF /* search.png */,
+				DFB2F0C718D990DD00381ABF /* background1.png */,
+				DFB2F0B018D98EB300381ABF /* background.png */,
+				DFB2F0B118D98EB300381ABF /* aboutUs.png */,
+				DFB2F0B218D98EB300381ABF /* borrow.png */,
+				DFB2F0B318D98EB300381ABF /* notice.png */,
+				DFB2F0B418D98EB300381ABF /* attention.png */,
+				DFB2F0B518D98EB300381ABF /* comment.png */,
+				DFB2F0B618D98EB300381ABF /* collect.png */,
+				DFB2F0B718D98EB300381ABF /* set.png */,
+				DFB2F0B818D98EB300381ABF /* newBooks.png */,
+				DFB2F0B918D98EB300381ABF /* renew.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB2F02D18D97E8500381ABF /* MobileLirary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB2F05A18D97E8600381ABF /* Build configuration list for PBXNativeTarget "MobileLirary" */;
+			buildPhases = (
+				DFB2F02A18D97E8500381ABF /* Sources */,
+				DFB2F02B18D97E8500381ABF /* Frameworks */,
+				DFB2F02C18D97E8500381ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLirary;
+			productName = MobileLirary;
+			productReference = DFB2F02E18D97E8500381ABF /* MobileLirary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB2F04818D97E8500381ABF /* MobileLiraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB2F05D18D97E8600381ABF /* Build configuration list for PBXNativeTarget "MobileLiraryTests" */;
+			buildPhases = (
+				DFB2F04518D97E8500381ABF /* Sources */,
+				DFB2F04618D97E8500381ABF /* Frameworks */,
+				DFB2F04718D97E8500381ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB2F04F18D97E8600381ABF /* PBXTargetDependency */,
+			);
+			name = MobileLiraryTests;
+			productName = MobileLiraryTests;
+			productReference = DFB2F04918D97E8500381ABF /* MobileLiraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB2F02618D97E8500381ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ralbatr;
+				TargetAttributes = {
+					DFB2F04818D97E8500381ABF = {
+						TestTargetID = DFB2F02D18D97E8500381ABF;
+					};
+				};
+			};
+			buildConfigurationList = DFB2F02918D97E8500381ABF /* Build configuration list for PBXProject "MobileLirary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFB2F02518D97E8500381ABF;
+			productRefGroup = DFB2F02F18D97E8500381ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB2F02D18D97E8500381ABF /* MobileLirary */,
+				DFB2F04818D97E8500381ABF /* MobileLiraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB2F02C18D97E8500381ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2F0BE18D98EB300381ABF /* notice.png in Resources */,
+				DFB2F0BD18D98EB300381ABF /* borrow.png in Resources */,
+				DFB2F0AA18D98C1100381ABF /* blueArrow@2x.png in Resources */,
+				DFB2F0C818D990DD00381ABF /* background1.png in Resources */,
+				DFB2F0BB18D98EB300381ABF /* background.png in Resources */,
+				DFB2F0C118D98EB300381ABF /* collect.png in Resources */,
+				DFB2F0BF18D98EB300381ABF /* attention.png in Resources */,
+				DFB2F0BA18D98EB300381ABF /* search.png in Resources */,
+				DFB2F0C418D98EB300381ABF /* renew.png in Resources */,
+				DFB2F03C18D97E8500381ABF /* InfoPlist.strings in Resources */,
+				DFB2F0C218D98EB300381ABF /* set.png in Resources */,
+				DFB2F0C018D98EB300381ABF /* comment.png in Resources */,
+				DFB2F0A718D98C1100381ABF /* blackArrow.png in Resources */,
+				DFB2F0AD18D98C1100381ABF /* grayArrow@2x.png in Resources */,
+				DFB2F0A918D98C1100381ABF /* blueArrow.png in Resources */,
+				DFB2F0A818D98C1100381ABF /* blackArrow@2x.png in Resources */,
+				DFB2F0AC18D98C1100381ABF /* grayArrow.png in Resources */,
+				DFB2F0BC18D98EB300381ABF /* aboutUs.png in Resources */,
+				DFB2F04418D97E8500381ABF /* Images.xcassets in Resources */,
+				DFB2F0C318D98EB300381ABF /* newBooks.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2F04718D97E8500381ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2F05518D97E8600381ABF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB2F02A18D97E8500381ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2F07518D97F3C00381ABF /* MyLabel.m in Sources */,
+				DFB2F04218D97E8500381ABF /* AppDelegate.m in Sources */,
+				DFB2F06C18D97F2F00381ABF /* BaseViewController.m in Sources */,
+				DFB2F07318D97F3C00381ABF /* MyButton.m in Sources */,
+				DFB2F06218D97EF800381ABF /* MainViewController.m in Sources */,
+				DFB2F07D18D980E500381ABF /* QuickBorrowViewController.m in Sources */,
+				DFB2F09118D9831400381ABF /* NewBookAnnouceViewController.m in Sources */,
+				DFB2F09D18D983FD00381ABF /* AboutUsViewController.m in Sources */,
+				DFB2F08D18D982B500381ABF /* MyCollectViewController.m in Sources */,
+				DFB2F07918D9805A00381ABF /* QuickConsultViewController.m in Sources */,
+				DFB2F07418D97F3C00381ABF /* MyImageView.m in Sources */,
+				DFB2F09918D983DF00381ABF /* SystemSetViewController.m in Sources */,
+				DFB2F0AB18D98C1100381ABF /* EGORefreshTableHeaderView.m in Sources */,
+				DFB2F08518D9817400381ABF /* AnnounceViewController.m in Sources */,
+				DFB2F03E18D97E8500381ABF /* main.m in Sources */,
+				DFB3D48118DA834600F05F88 /* ComboxView.m in Sources */,
+				DFB2F09518D9838700381ABF /* MyDiscussViewController.m in Sources */,
+				DFB2F06B18D97F2F00381ABF /* BaseTableView.m in Sources */,
+				DFB2F08918D981BC00381ABF /* AttentionViewController.m in Sources */,
+				DFB2F06A18D97F2F00381ABF /* BaseNavigationViewController.m in Sources */,
+				DFB2F08118D9812700381ABF /* RenewBookViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB2F04518D97E8500381ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2F05718D97E8600381ABF /* MobileLiraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB2F04F18D97E8600381ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB2F02D18D97E8500381ABF /* MobileLirary */;
+			targetProxy = DFB2F04E18D97E8600381ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB2F03A18D97E8500381ABF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB2F03B18D97E8500381ABF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFB2F05318D97E8600381ABF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB2F05418D97E8600381ABF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB2F05818D97E8600381ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFB2F05918D97E8600381ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB2F05B18D97E8600381ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileLirary/MobileLirary-Prefix.pch";
+				INFOPLIST_FILE = "MobileLirary/MobileLirary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFB2F05C18D97E8600381ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileLirary/MobileLirary-Prefix.pch";
+				INFOPLIST_FILE = "MobileLirary/MobileLirary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFB2F05E18D97E8600381ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileLirary.app/MobileLirary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileLirary/MobileLirary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MobileLiraryTests/MobileLiraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DFB2F05F18D97E8600381ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileLirary.app/MobileLirary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileLirary/MobileLirary-Prefix.pch";
+				INFOPLIST_FILE = "MobileLiraryTests/MobileLiraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB2F02918D97E8500381ABF /* Build configuration list for PBXProject "MobileLirary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2F05818D97E8600381ABF /* Debug */,
+				DFB2F05918D97E8600381ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB2F05A18D97E8600381ABF /* Build configuration list for PBXNativeTarget "MobileLirary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2F05B18D97E8600381ABF /* Debug */,
+				DFB2F05C18D97E8600381ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB2F05D18D97E8600381ABF /* Build configuration list for PBXNativeTarget "MobileLiraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2F05E18D97E8600381ABF /* Debug */,
+				DFB2F05F18D97E8600381ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB2F02618D97E8500381ABF /* Project object */;
+}
