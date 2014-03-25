@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF6B226118E1238E00FB8083 /* SearchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6B226018E1238E00FB8083 /* SearchButton.png */; };
 		DFB2F03218D97E8500381ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03118D97E8500381ABF /* Foundation.framework */; };
 		DFB2F03418D97E8500381ABF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03318D97E8500381ABF /* CoreGraphics.framework */; };
 		DFB2F03618D97E8500381ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB2F03518D97E8500381ABF /* UIKit.framework */; };
@@ -56,6 +57,8 @@
 		DFB2F0C418D98EB300381ABF /* renew.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0B918D98EB300381ABF /* renew.png */; };
 		DFB2F0C818D990DD00381ABF /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB2F0C718D990DD00381ABF /* background1.png */; };
 		DFB3D48118DA834600F05F88 /* ComboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB3D48018DA834600F05F88 /* ComboxView.m */; };
+		DFC7318318E16755002EB7CD /* BorrowedBooksView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7318218E16755002EB7CD /* BorrowedBooksView.m */; };
+		DFC7318618E16FA4002EB7CD /* BorrowBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7318518E16FA4002EB7CD /* BorrowBooks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF6B226018E1238E00FB8083 /* SearchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchButton.png; sourceTree = "<group>"; };
 		DFB2F02E18D97E8500381ABF /* MobileLirary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLirary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB2F03118D97E8500381ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFB2F03318D97E8500381ABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,6 +145,10 @@
 		DFB2F0C718D990DD00381ABF /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
 		DFB3D47F18DA834600F05F88 /* ComboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboxView.h; sourceTree = "<group>"; };
 		DFB3D48018DA834600F05F88 /* ComboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboxView.m; sourceTree = "<group>"; };
+		DFC7318118E16755002EB7CD /* BorrowedBooksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrowedBooksView.h; sourceTree = "<group>"; };
+		DFC7318218E16755002EB7CD /* BorrowedBooksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrowedBooksView.m; sourceTree = "<group>"; };
+		DFC7318418E16FA4002EB7CD /* BorrowBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrowBooks.h; sourceTree = "<group>"; };
+		DFC7318518E16FA4002EB7CD /* BorrowBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrowBooks.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +304,10 @@
 			children = (
 				DFB2F07F18D9812700381ABF /* RenewBookViewController.h */,
 				DFB2F08018D9812700381ABF /* RenewBookViewController.m */,
+				DFC7318118E16755002EB7CD /* BorrowedBooksView.h */,
+				DFC7318218E16755002EB7CD /* BorrowedBooksView.m */,
+				DFC7318418E16FA4002EB7CD /* BorrowBooks.h */,
+				DFC7318518E16FA4002EB7CD /* BorrowBooks.m */,
 			);
 			name = RenewBook;
 			sourceTree = "<group>";
@@ -381,6 +393,7 @@
 		DFB2F0AE18D98EA200381ABF /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				DF6B226018E1238E00FB8083 /* SearchButton.png */,
 				DFB2F0AF18D98EB300381ABF /* search.png */,
 				DFB2F0C718D990DD00381ABF /* background1.png */,
 				DFB2F0B018D98EB300381ABF /* background.png */,
@@ -491,6 +504,7 @@
 				DFB2F0AC18D98C1100381ABF /* grayArrow.png in Resources */,
 				DFB2F0BC18D98EB300381ABF /* aboutUs.png in Resources */,
 				DFB2F04418D97E8500381ABF /* Images.xcassets in Resources */,
+				DF6B226118E1238E00FB8083 /* SearchButton.png in Resources */,
 				DFB2F0C318D98EB300381ABF /* newBooks.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,12 +537,14 @@
 				DFB2F07418D97F3C00381ABF /* MyImageView.m in Sources */,
 				DFB2F09918D983DF00381ABF /* SystemSetViewController.m in Sources */,
 				DFB2F0AB18D98C1100381ABF /* EGORefreshTableHeaderView.m in Sources */,
+				DFC7318318E16755002EB7CD /* BorrowedBooksView.m in Sources */,
 				DFB2F08518D9817400381ABF /* AnnounceViewController.m in Sources */,
 				DFB2F03E18D97E8500381ABF /* main.m in Sources */,
 				DFB3D48118DA834600F05F88 /* ComboxView.m in Sources */,
 				DFB2F09518D9838700381ABF /* MyDiscussViewController.m in Sources */,
 				DFB2F06B18D97F2F00381ABF /* BaseTableView.m in Sources */,
 				DFB2F08918D981BC00381ABF /* AttentionViewController.m in Sources */,
+				DFC7318618E16FA4002EB7CD /* BorrowBooks.m in Sources */,
 				DFB2F06A18D97F2F00381ABF /* BaseNavigationViewController.m in Sources */,
 				DFB2F08118D9812700381ABF /* RenewBookViewController.m in Sources */,
 			);

@@ -65,6 +65,26 @@
     classCombox.tableArray = classArray;
     [self.view addSubview:classCombox];
     
+    // 题名类别选项
+    ComboxView *titleCombox = [[ComboxView alloc] initWithFrame:CGRectMake(40, 230, 240, 50)];
+    NSMutableArray *titleArray = [NSMutableArray arrayWithObjects:@"题名",@"责任者",@"主题词",@"出版社",@"ISSN/ISBN",nil];
+    titleCombox.textField.text = @"题名";
+    titleCombox.textField.backgroundColor = [UIColor whiteColor];
+    titleCombox.tableArray = titleArray;
+    [self.view addSubview:titleCombox];
+    //搜索按钮
+    UIButton *searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    searchButton.frame = CGRectMake(105, 280, 128, 128);
+    [searchButton setImage:[UIImage imageNamed:@"SearchButton.png"] forState:UIControlStateNormal];
+    [searchButton addTarget:self action:@selector(searchAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:searchButton];
+    
+}
+
+#pragma mark 搜索按钮事件
+- (void)searchAction
+{
+    NSLog(@"searchAction");
 }
 
 @end

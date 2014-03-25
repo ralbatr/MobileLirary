@@ -8,6 +8,9 @@
 
 #import "BaseViewController.h"
 
-@interface RenewBookViewController : BaseViewController
+@interface RenewBookViewController : BaseViewController <UITableViewDataSource,UITableViewDelegate>
+
+@property (nonatomic,strong) UITableView *borrowBookList ;
+@property (nonatomic,strong) NSMutableArray *borrowBooksArray;
 
 @end
